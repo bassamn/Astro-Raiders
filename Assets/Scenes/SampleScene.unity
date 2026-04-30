@@ -398,7 +398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6765678695339201444, guid: ae50133388279954ea0d0bc9a85c376e, type: 3}
       propertyPath: m_Name
-      value: player_0
+      value: Sprite
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3241335812199664261, guid: d137fa1598426d94b8d5e142b809ccb5, type: 3}
       propertyPath: m_Name
-      value: enemy1_0
+      value: Sprite
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
