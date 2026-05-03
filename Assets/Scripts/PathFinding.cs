@@ -3,7 +3,7 @@ using UnityEngine;
 public class PathFinding : MonoBehaviour
 {
     EnemySpawner enemySpawner;
-    [SerializeField] WaveConfigSO waveConfig;
+    WaveConfigSO waveConfig;
     Transform[] waypoints;
     int waypointIndex = 0;
 
