@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6199063219399158892}
   - component: {fileID: 6941051315945011507}
   - component: {fileID: 6808585246337796334}
+  - component: {fileID: 2514660363185331157}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -130,6 +131,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   health: 100
+--- !u!114 &2514660363185331157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7793062030420570951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c278e1713fecc4da96bbe8a265088b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Shooter
+  projectilePrefab: {fileID: 3540824192879792763, guid: e3401a36ee94b88458f34862e241bd15, type: 3}
+  projectileSpeed: 6
+  projectileLifetime: 5
+  baseFireRate: 0.2
+  useAI: 0
+  minimumFireRate: 0.2
+  fireRateVariance: 0
+  isFiring: 0
 --- !u!1 &7833986389156313813
 GameObject:
   m_ObjectHideFlags: 0
